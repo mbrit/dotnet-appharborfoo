@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHarborFoo", "AppHarborFoo\AppHarborFoo.csproj", "{EA22D056-654F-4BE5-8F89-4A1D941903B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHarborFoo.UI.Web", "AppHarborFoo.UI.Web\AppHarborFoo.UI.Web.csproj", "{5909B199-8100-49F4-B4B8-B46FCB86B023}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA22D056-654F-4BE5-8F89-4A1D941903B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA22D056-654F-4BE5-8F89-4A1D941903B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA22D056-654F-4BE5-8F89-4A1D941903B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA22D056-654F-4BE5-8F89-4A1D941903B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5909B199-8100-49F4-B4B8-B46FCB86B023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5909B199-8100-49F4-B4B8-B46FCB86B023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5909B199-8100-49F4-B4B8-B46FCB86B023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5909B199-8100-49F4-B4B8-B46FCB86B023}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
