@@ -9,7 +9,7 @@ namespace AppHarborFoo
     {
         public string DoMagic()
         {
-            return string.Format("Bar ... {0}", DateTime.Now);
+            return string.Format("Bar2 ... {0}", DateTime.Now);
         }
     }
 }
