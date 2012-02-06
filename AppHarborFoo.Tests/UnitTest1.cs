@@ -12,10 +12,16 @@ namespace AppHarborFoo.Tests
     [TestClass]
     public class MyTests
     {
+        //[TestMethod()]
+        //public void TestFailure()
+        //{
+        //    throw new InvalidOperationException("I'm designed to stop deployment!");
+        //}
+
         [TestMethod()]
-        public void TestFailure()
+        public void TestSuccess()
         {
-            throw new InvalidOperationException("I'm designed to stop deployment!");
+            // ...whereas I'm designed to allow deployment!
         }
     }
 }
