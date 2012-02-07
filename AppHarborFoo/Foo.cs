@@ -10,7 +10,7 @@ namespace AppHarborFoo
     {
         public string DoMagic()
         {
-            return string.Format("Bar2 - {0} - {1}", DateTime.Now, ConfigurationManager.AppSettings["SQLSERVER_URI"]);
+            return string.Format("Welcome to AppHarbor! - {0}", DateTime.Now);
         }
     }
 }
