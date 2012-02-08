@@ -19,7 +19,14 @@ namespace AppHarborFoo
         {
             // get...
             SqlConnection conn = new SqlConnection(ConnectionString);
-            conn.Open();
+            try
+            {
+                conn.Open();
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException(string.Format("Failed to connection to '{0}'.", ConnectionString), ex);
+            }
 
             // return...
             return conn;
