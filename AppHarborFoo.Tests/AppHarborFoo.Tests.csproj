@@ -45,8 +45,18 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MyTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppHarborFoo\AppHarborFoo.csproj">
+      <Project>{EA22D056-654F-4BE5-8F89-4A1D941903B7}</Project>
+      <Name>AppHarborFoo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

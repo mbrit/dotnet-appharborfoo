@@ -14,6 +14,20 @@ namespace AppHarborFoo.UI.Web
 
         }
 
+        protected override void OnInit(EventArgs e)
+        {
+            base.OnInit(e);
+
+            // sub...
+            this.buttonCreateCustomer.Click += new EventHandler(buttonCreateCustomer_Click);
+        }
+
+        void buttonCreateCustomer_Click(object sender, EventArgs e)
+        {
+            Customer customer = Customer.CreateCustomer("foo", "bar", "foo+" + new Random().Next() + "@mbrit.com");
+            this.buttonCreateCustomer.Text = string.Format("Created customer #{0}: {1}", customer.CustomerId, customer.Email);
+        }
+
         public string Foobar
         {
             get

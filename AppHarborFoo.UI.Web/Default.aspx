@@ -10,6 +10,10 @@
     <form id="form1" runat="server">
     <div>
         <%=Foobar %>
+
+        <h2>Test the database</h2>
+        <asp:Button runat="server" ID="buttonCreateCustomer" Text="Create Customer" />
+
     </div>
     </form>
 </body>
